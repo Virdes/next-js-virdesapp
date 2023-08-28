@@ -21,7 +21,18 @@
     width: 300px;
     height: 400px;
     position: relative;
+    background-size: cover !important;
 
+}
+
+.item:nth-child(1){
+    background: url("/illustration.png"); /*image here from public folder*/
+}
+.item:nth-child(2){
+    background: url("/websites.jpg"); /*image here from public folder*/
+}
+.item:nth-child(3){
+    background: url("/apps.jpg"); /*image here from public folder*/
 }
 
 .title{
@@ -30,4 +41,8 @@
     bottom: 10px;
     font-size: 40px;
     font-weight: bold;
+}
+
+.item:hover .title{
+    color: #53c28b;
 }
