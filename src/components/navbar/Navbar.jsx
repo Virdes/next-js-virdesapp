@@ -31,11 +31,6 @@ const links = [
     title: "Contact",
     url: "/contact",
   },
-  {
-    id: 6,
-    title: "Dashboard",
-    url: "/dashboard",
-  },
 ];
 
 const Navbar = () => {
@@ -49,12 +44,13 @@ const Navbar = () => {
             {link.title}
           </Link>
         ))}
+        <Link href="/dashboard/login" className={styles.signin}>
         <button
           className={styles.logout} 
           onClick={()=>{console.log("logged out");
           }}>
-            Logout
-        </button>
+            Login
+        </button></Link>
       </div>
     </div>
   )

@@ -3,6 +3,11 @@ import styles from './page.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
+export const metadata = {
+  title: 'unidev - blog',
+  description: 'Blog page',
+}
+
 async function getData() {
   const res = await fetch('https://jsonplaceholder.typicode.com/posts', 
   { cache: 'no-store',

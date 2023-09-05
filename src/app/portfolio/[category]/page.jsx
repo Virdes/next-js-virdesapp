@@ -9,10 +9,10 @@ const getData = (cat)=>{
   const data = items[cat]
 
   if(data) {
-    return data
+    return data;
   }
 
-  return notFound()
+  return notFound();
 }
 
 const Category = ({params}) => {
