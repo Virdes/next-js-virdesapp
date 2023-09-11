@@ -26,7 +26,7 @@
 }
 
 .item:nth-child(1){
-    background: url("/illustration.png"); /*image here from public folder*/
+    background: url("/illustrationuni.png"); /*image here from public folder*/
 }
 .item:nth-child(2){
     background: url("/websites.jpg"); /*image here from public folder*/
